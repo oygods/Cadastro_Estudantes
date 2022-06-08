@@ -1,0 +1,16 @@
+
+<div class="bg" *ngIf="estudante">
+  <div class="student-details">
+      <label for="estudante-nome">Nome </label>
+      <input id="estudante-nome" [(ngModel)]="estudante.nome" maxlength="15" placeholder="Nome">
+
+       <label for="estudante-sobrenome">Sobrenome </label>
+       <input id="estudante-sobrenome" [(ngModel)]="estudante.sobrenome" maxlength="40" placeholder="Sobrenome">
+
+       <label for="estudante-idade">Idade </label>
+       <input id="estudante-idade" [(ngModel)]="estudante.idade" maxlength="3"placeholder="Idade">
+
+       <label for="estudante-cpf">CPF </label>
+       <input id="estudante-cpf" [(ngModel)]="estudante.CPF" maxlength="14" placeholder="CPF">
+    </div>
+</div>

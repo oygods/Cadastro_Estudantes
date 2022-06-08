@@ -1,0 +1,37 @@
+* {
+    font-family: 'Poppins', 600;
+    margin: 0 auto;
+}
+
+.bg {
+    background: #e7e7e7;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.alinha {
+    font-family: 'Poppins', 600;
+    text-align: center;
+}
+
+.container {
+    background: red;
+}
+
+.student-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+    align-items: center;
+}
+
+.student-details input {
+    text-align: center;
+    border: none;
+    width: 100px;
+    border-radius: 30px;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    background: orange;
+}
