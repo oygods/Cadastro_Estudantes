@@ -1,0 +1,63 @@
+* {
+    font-family: 'Poppins', 600;
+}
+
+h2{
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    background: #e7e7e7;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.student-list {
+    background: red;
+}
+
+.estudantes {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.estudantes button{
+    padding: 10px;
+    border: none;
+    background: orange;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.estudantes button:hover{
+    cursor: pointer;
+    background-color: #f7f7f7;
+
+}
+
+.estudantes button.selected{
+    background-color: black;
+    color: white;
+}

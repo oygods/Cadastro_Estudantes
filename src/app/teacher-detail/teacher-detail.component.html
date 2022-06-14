@@ -1,0 +1,19 @@
+
+<div class="bg" *ngIf="professor">
+  <div class="teacher-details">
+      <label for="professor-nome">Nome </label>
+      <input id="professor-nome" [(ngModel)]="professor.nome" maxlength="15" placeholder="Nome">
+
+       <label for="professor-sobrenome">Sobrenome </label>
+       <input id="professor-sobrenome" [(ngModel)]="professor.sobrenome" maxlength="40" placeholder="Sobrenome">
+
+       <label for="professor-idade">Idade </label>
+       <input id="professor-idade" [(ngModel)]="professor.idade" maxlength="3"placeholder="Idade">
+
+       <label for="professor-cpf">CPF </label>
+       <input id="professor-cpf" [(ngModel)]="professor.CPF" maxlength="14" placeholder="CPF">
+
+       <label for="professor-tel">Telefone </label>
+       <input id="professor-tel" [(ngModel)]="professor.Telefone" maxlength="14" placeholder="tel">
+    </div>
+</div>

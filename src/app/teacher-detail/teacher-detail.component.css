@@ -1,0 +1,32 @@
+* {
+    font-family: 'Poppins', 600;
+    margin: 0 auto;
+}
+
+.bg {
+    background: #e7e7e7;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    background: red;
+}
+
+.teacher-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+    align-items: center;
+}
+
+.teacher-details input {
+    text-align: center;
+    border: none;
+    width: 100px;
+    border-radius: 30px;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    background: orange;
+}

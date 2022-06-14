@@ -1,0 +1,12 @@
+
+  <h2>Lista de Professores</h2>
+<div class ="container">
+  <ul class="estudantes">
+      <li  *ngFor="let professor of professores">
+        <button  [class.selected]="professor === selectedProfessor" type="button" (click)="onSelect(professor)">
+          {{ professor.nome }}
+        </button>
+      </li>
+    </ul>
+  <app-teacher-detail [professor]="selectedProfessor"></app-teacher-detail>
+</div>
