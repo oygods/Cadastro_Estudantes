@@ -4,4 +4,5 @@ export interface Estudante {
     sobrenome:string;
     idade: number;
     CPF: string;
+    Telefone: string;
 }

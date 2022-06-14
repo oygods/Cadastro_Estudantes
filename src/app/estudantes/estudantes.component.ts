@@ -15,10 +15,11 @@ export class EstudantesComponent implements OnInit {
 
   estudante: Estudante = {
     id: 1,
-    nome: 'Gustavo',
-    sobrenome:'Geballi',
+    nome: 'Lucas',
+    sobrenome:'Godoy',
     idade: 18,
-    CPF: '8876643329',
+    CPF: '78945675',
+    Telefone: '12345678',
   }
 
   selectedEstudante?: Estudante;
